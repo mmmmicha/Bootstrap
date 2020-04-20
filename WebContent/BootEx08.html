@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BootEx08.html</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- 추가~!!!(check~!!!) -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+</head>
+<body>
+
+<div>
+	<h1>Glyphicons</h1>
+	<hr>
+</div>
+
+<div>
+	아이콘 : <span class="glyphicon glyphicon-star-empty"></span>
+</div>
+
+<div>
+	아이콘 : <span class="glyphicon glyphicon-star-empty"
+		style="font-size: 30px; color: blue"></span><!-- text 취급 -->
+</div>
+
+<div>
+	<!-- Attribute Content Type → Simple Type → 적용 안됨 -->
+	<!-- ※ 얘는 단일 태그이기 때문에 PC area가 없음 -->
+	<input type="button" class="glyphicon glyphicon-heart"/>
+</div>
+
+<div>
+	<!-- ※ 여닫는 태그이기 때문에 PC area 있음 -->
+	<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-print"></span> 인쇄하기</button>
+</div>
+
+<br><br><br><br><br><br>
+
+<div>
+	<button type="button" class="btn btn-default">Left</button>
+	<button type="button" class="btn btn-default">Middle</button>
+	<button type="button" class="btn btn-default">Right</button>
+</div>
+
+<br><br><br><br><br><br>
+
+<!-- div 도 용도를 명확히 구분할 것!!! -->
+<div class="btn-group" role="group">
+	<button type="button" class="btn btn-default">Left</button>
+	<button type="button" class="btn btn-default">Middle</button>
+	<button type="button" class="btn btn-default">Right</button>
+</div>
+
+<br><br><br><br><br><br>
+
+<div class="btn-group">
+	<button type="button" class="btn btn-default">
+		<span class="glyphicon glyphicon-align-left"></span>
+		Left
+	</button>
+	<button type="button" class="btn btn-default">
+		<span class="glyphicon glyphicon-align-center"></span>
+		Middle
+	</button>
+	<button type="button" class="btn btn-default">
+		<span class="glyphicon glyphicon-align-right"></span>
+		Right
+	</button>
+</div>
+
+</body>
+</html>
